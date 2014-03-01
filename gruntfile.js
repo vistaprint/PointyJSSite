@@ -5,7 +5,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON("package.json"),
         docco: {
             javascript: {
-                src: ["<%= grunt.option('src') %>jquery.pointer*.js"],
+                src: ["<%= grunt.option('src') %>pointy*.js"],
                 dest: "./site/_site/docco/"
             }
         },
