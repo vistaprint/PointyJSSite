@@ -1,11 +1,11 @@
 ---
 layout: main
-title: jQuery.pointerGestures
+title: pointy.gestures.js
 ---
 
-## jQuery.pointerGestures
+## pointy.gestures.js
 
-jQuery.pointerGestures is a set of jQuery custom events that mimic [jQuery mobile's touch events](http://api.jquerymobile.com/category/events/) which also support the [pointer events api](http://www.w3.org/Submission/pointer-events/).
+pointy.gestures.js is a set of jQuery custom events, built on top of pointer events, that support high-level, abstract gestures such as press, presshold, and sweep.
 
 ### Inclusion
 
