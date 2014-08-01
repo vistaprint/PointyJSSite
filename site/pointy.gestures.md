@@ -7,8 +7,6 @@ title: pointy.gestures.js
 
 pointy.gestures.js is a set of jQuery custom events, built on top of pointer events, that support high-level, abstract gestures such as press, presshold, and sweep.
 
-pointy.js allows you to attach only to pointer events and let it deal with support all the other types of events. You no longer need to handle mouse and touch events separately.
-
 ### Inclusion
 
 Include pointy.gestures.js immediately after pointy.js in your JavaScript bundle HTML page:
