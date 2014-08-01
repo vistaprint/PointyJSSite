@@ -1,7 +1,7 @@
 pointy.js website
 ===========================================
 
-This website is built using Jekyll, and produces all static content. It is hosted at http://vistaprint.github.io/SkinnyJS.
+This website is built using Jekyll, and produces all static content. It is hosted at http://vistaprint.github.io/PointyJS.
 
 Documentation for individual pointy.js libraries are in markdown, in /site/*.md.
 
