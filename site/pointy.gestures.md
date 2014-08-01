@@ -1,6 +1,6 @@
 ---
 layout: main
-title: pointy.gestures.js
+title: pointy.gestures
 ---
 
 ## pointy.gestures.js

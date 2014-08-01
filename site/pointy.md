@@ -1,6 +1,6 @@
 ---
 layout: main
-title: pointy.js
+title: pointy
 ---
 
 ## pointy.js
