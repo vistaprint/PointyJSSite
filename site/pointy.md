@@ -18,7 +18,7 @@ Include pointy.js in your JavaScript bundle or add it to your HTML page:
 <script type="text/javascript" src="/path/to/pointy.js"></script>
 {% endhighlight %}
 
-Additionally, pointy.gestures can be included, which supports a number of high-level events built on top of pointer events:
+Additionally, [pointy.gestures](pointy.gestures.html) can be included, which supports a number of high-level events built on top of pointer events:
 
 {% highlight html %}
 <script type="text/javascript" src="/path/to/pointy.gestures.js"></script>
