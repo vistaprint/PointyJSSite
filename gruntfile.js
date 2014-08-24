@@ -102,22 +102,12 @@ module.exports = function (grunt) {
 
     // NPM tasks
     grunt.loadNpmTasks("grunt-contrib-copy");
-    grunt.loadNpmTasks("grunt-contrib-concat");
-    grunt.loadNpmTasks("grunt-contrib-connect");
     grunt.loadNpmTasks("grunt-contrib-clean");
     grunt.loadNpmTasks("grunt-docco");
     grunt.loadNpmTasks("grunt-contrib-compress");
     grunt.loadNpmTasks("grunt-string-replace");
-    grunt.loadNpmTasks("grunt-contrib-watch");
     grunt.loadNpmTasks("grunt-jekyll");
     grunt.loadNpmTasks("grunt-mkdir");
-
-    grunt.registerTask("connect-keepalive", function () {
-        var config = grunt.config.get("connect");
-        config.server.options.keepalive = true;
-        grunt.config.set("connect", config);
-        grunt.task.run("connect");
-    });
 
     grunt.registerTask("verifypath", function() {
         if (!grunt.file.exists(grunt.option("src"))) {
